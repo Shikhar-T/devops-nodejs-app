@@ -2,23 +2,20 @@
 
 This is a simple Node.js application created for an end-to-end DevOps CI/CD project.
 
-The application is built using:
-- Node.js
-- Express.js
-- Docker
+## 🛠 Tech Stack
+- **Node.js** & **Express.js**
+- **Docker**
 
-This project will later be integrated with:
-- Jenkins
-- DockerHub
-- Kubernetes (Minikube)
-- Prometheus & Grafana
-- Terraform
-- GitHub Webhooks
+This project will be integrated with:
+- **CI/CD:** Jenkins & GitHub Webhooks
+- **Registry:** DockerHub
+- **Orchestration:** Kubernetes (Minikube)
+- **Monitoring:** Prometheus & Grafana
+- **IaC:** Terraform
 
 ---
 
-# Application Features
-
+## 🌟 Application Features
 - Simple Express web server
 - Runs on port `3000`
 - Dockerized application
@@ -26,8 +23,7 @@ This project will later be integrated with:
 
 ---
 
-# Project Structure
-
+## 📂 Project Structure
 ```bash
 devops-nodejs-app/
 │
@@ -37,12 +33,22 @@ devops-nodejs-app/
 ├── Dockerfile
 ├── .gitignore
 └── README.md
+```
+
 ---
 
-# Initial command 
+## 🚀 Getting Started
 
-Run it on your local machine.
+### Initial Setup
+Run this command on your local machine to install the necessary dependencies:
+
 ```bash
 npm install
 ```
 
+### Run the Application
+To start the server locally, use:
+
+```bash
+npm start
+```
