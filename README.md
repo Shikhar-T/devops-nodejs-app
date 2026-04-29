@@ -37,3 +37,12 @@ devops-nodejs-app/
 ├── Dockerfile
 ├── .gitignore
 └── README.md
+---
+
+# Initial command 
+
+Run it on your local machine.
+```bash
+npm install
+```
+
