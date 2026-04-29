@@ -6,6 +6,8 @@ app.get("/", (req, res) => {
     res.send("DevOps CI/CD Pipeline Running 🚀");
 });
 
-app.listen(3000, () => {
-    console.log("App running on port 3000");
+const PORT = 3000;
+
+app.listen(PORT, () => {
+    console.log(`App running on port ${PORT}`);
 });

@@ -1,12 +1,12 @@
 {
-  "name": "devops-node-app",
+  "name": "devops-nodejs-app",
   "version": "1.0.0",
-  "description": "DevOps Project App",
+  "description": "DevOps CI/CD Project",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.22.1"
+    "express": "^4.18.2"
   }
 }
